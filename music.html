@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Music Player</title>
+        <link rel="stylesheet" href="music.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="top-bar">
+                <i class="material-icons">expand_more</i>
+                <span>Now Playing</span>
+                <i class="material-icons">more_horiz</i>
+            </div>
+            <div class="img-area">
+                <img src="" alt="">
+            </div>
+            <div class="song-details">
+                <p class="name"></p>
+                <p class="artist"></p>
+            </div>
+            <div class="progress-area">
+                <div class="progress-bar"></div>
+                <div class="timer">
+                    <span class="current-time">0:00</span>
+                    <span class="max-duration"></span>
+                </div>
+                <audio id="main-audio" src=""></audio>
+            </div>
+            <div class="controls">
+                <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+                <i id="prev" class="material-icons">skip_previous</i>
+                <div class="play-pause">
+                    <i class="material-icons">play_arrow</i>
+                </div>
+                <i id="next" class="material-icons">skip_next</i>
+                <i id="more-music" class="material-icons">queue_music</i>
+            </div>
+            <!--starting the work to insert more songs section-->
+            <div class="music-list">
+                <div class="header">
+                    <div class="row">
+                        <i class="material-icons">queue_music</i>
+                        <span>Music List</span>
+                    </div>
+                    <i id="close" class="material-icons">close</i>
+                </div>
+            <ul>
+                 <!--<li>
+                    <div class="row">
+                        <span>Anti Spiral - Fed Up</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">2:50</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>Zedline - Polozhenie</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">2:41</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>XXXTENTACION - Storm</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">2:15</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>G-Eazy - Far Alone</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">2:52</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>Fat Joe,Remy Ma - All The Way Up</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">2:53</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>Hippie Sabotage - Devil Eyes</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">4:26</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>Eminem - Venom</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">4:56</span>
+                </li>
+                <li>
+                    <div class="row">
+                        <span>Future - Mask Off(Politik Trap Remix)</span>
+                        <p>Audio Library</p>
+                    </div>
+                    <span class="audio-duration">3:48</span>
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="music-list.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
